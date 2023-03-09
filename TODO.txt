@@ -14,9 +14,9 @@ TO-DO :
 
 7. Pada bagian footer modifikasi bagian social-links agar terlihat enak dilihat. Kemudian pada footer-item disampingnya, modifikasi text bagian h5 dan li sesuai dengan website job portal, bisa cari referensi di desain lainnya. ✅
 
-8. Lanjutkan untuk section feedback, gunakan library swiperJS, itu sudah saya connect di HTML, jadi tinggal pake aja di halaman script.js . Untuk data feedbacknya pake dummy dulu aja.
+8. Lanjutkan untuk section feedback, gunakan library swiperJS, itu sudah saya connect di HTML, jadi tinggal pake aja di halaman script.js . Untuk data feedbacknya pake dummy dulu aja. ✅
 
-9. buat halaman menjadi responsive, apabila memungkinkan
+9. buat halaman menjadi responsive, apabila memungkinkan ❌
 
 - NOTE : Anda juga bisa menambahkan section lainnya, apabila desain web saya dirasa kurang bagus. Ada beberapa hal yang perlu dimodifikasi melalui style.css, jadi tidak harus menggunakan bootstrap.
 
