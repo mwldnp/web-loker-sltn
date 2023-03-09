@@ -1,0 +1,261 @@
+/* =========================
+        CSS  RESET
+========================= */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/* =========================
+        GENERAL
+========================= */
+
+.bg {
+  background: #e0dff1;
+}
+
+.xtra-p {
+  padding: 60px 0 40px;
+  overflow-x: hidden;
+}
+
+.xtra-pt {
+  padding-top: 10rem;
+}
+
+.nav-links {
+  margin-top: 1.2%;
+  z-index: 999;
+}
+
+.nav-links .active {
+  border-bottom: 2px solid #655dbb;
+}
+
+.nav-links a:hover {
+  color: #655dbb !important;
+}
+
+.jumbotron .img-box img {
+  left: 5rem;
+}
+
+.w-35 {
+  width: 35%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.h-5rem {
+  height: 5rem;
+}
+
+/* =========================
+        HEADER
+========================= */
+
+header button,
+header .jumbotron {
+  letter-spacing: 1px;
+}
+
+.link-hover:hover {
+  color: text-primary !important;
+}
+
+/* =========================
+        JUMBOTRON
+========================= */
+
+/* =========================
+        CATEGORIES
+========================= */
+
+.categories {
+  padding-top: 6rem;
+  padding-bottom: 5rem;
+}
+
+/* =========================
+        STEP-GUIDE
+========================= */
+
+.step-guide ol {
+  list-style: none;
+  counter-reset: item;
+  position: relative;
+  right: 2rem;
+}
+
+.step-guide li {
+  counter-increment: item;
+  margin-bottom: 5px;
+}
+
+.step-guide li:before {
+  margin-right: 10px;
+  content: counter(item);
+  content: ;
+  background: #655dbb;
+  border-radius: 100%;
+  color: white;
+  width: 2rem;
+  height: 2rem;
+  display: inline-block;
+  text-align: center;
+  line-height: 2rem;
+  font-size: 1.2rem;
+}
+
+.step-guide li h5 {
+  display: inline-block;
+}
+
+.step-guide li p {
+  margin-left: 3rem;
+}
+
+/* =========================
+        JOB LIST
+========================= */
+
+.company {
+  display: flex;
+  align-items: center;
+  /* background: red; */
+  gap: 0.8rem;
+}
+
+.desc {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.company .company-desc > * {
+  margin-bottom: unset;
+}
+
+.company .img-box {
+  background: #ccc;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.job-list .content h4 {
+  margin-top: 1rem;
+}
+
+.job-list .content p {
+  color: #bbb;
+}
+
+.jobList-hover:hover {
+  background-color: #655dbb;
+  color: #ffffff !important;
+}
+/* =========================
+        FEEDBACK
+========================= */
+
+.feedback {
+  margin: 32px 0 120px 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 350px;
+}
+
+.swiper-slide {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide p:before {
+  content: '"';
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.swiper-slide p:after {
+  content: '"';
+}
+
+.swiper-button-next {
+}
+.swiper-button-prev {
+}
+
+/* =========================
+        NEWSLETTER
+========================= */
+
+.newsletter .newsletter-container {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.newsletter .bdrs {
+  border-radius: 20px;
+}
+
+.newsletter .xtra-bdrs {
+  border-radius: 2rem;
+}
+
+.newsletter input {
+  margin-left: 10px;
+}
+
+/* =========================
+            FOOTER
+========================= */
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+
+.footer-item:first-child {
+  margin-right: 3rem;
+}
+
+.footerLink {
+  opacity: 0.8;
+}
+
+.footerLink:hover {
+  opacity: 1;
+}
+
+.icon {
+  color: #655dbb;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: 0.4s;
+}
+
+.icon:hover {
+  color: #655dbb;
+  transform: scale(1.2);
+  opacity: 1;
+}

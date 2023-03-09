@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    
+
+    <title>Homepage</title>
+</head>
+
+<body>
+    <!-- ----- Heaader ----- -->
+    <header class="header w-100" id="header">
+        <div class="nav-bar w-100 h-5rem position-absolute container-fluid d-flex align-items-center">
+            <div class="container">
+                <nav class="d-flex justify-content-between align-items-center">
+                    <div class="logo">
+                        <img src="./assets/images/logo.png" alt="logo" class="rounded-circle" width="50" height="50">
+                    </div>
+                    <ul class="nav-links d-flex align-items-center list-unstyled w-35 justify-content-between h-100">
+                        <li><a href="#" class="text-decoration-none fw-bold text-primary active ">Beranda</a></li>
+                        <li><a href="#" class="text-decoration-none fw-bold text-secondary ">Cari Lowongan</a></li>
+                        <li><a href="#" class="text-decoration-none fw-bold text-secondary ">Kontak</a></li>
+                        <li><a href="#" class="text-decoration-none fw-bold text-secondary ">Bantuan</a></li>
+                    </ul>
+                    <div class="join d-flex align-items-center"><button
+                            class="btn btn-primary fw-bold pe-auto">Daftar</button></div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- ----- End Header ----- -->
+    <!-- ----- Jumbotron ----- -->
+    <section class="jumbotron w-100 vh-100">
+        <div class="container">
+            <div class="row d-flex align-items-center vh-100">
+                <div class="col-sm-6 col-xs-12">
+                    <h2 class="text-xxl text-dark display-6 fw-bold">Jelajahi <span class="text-primary">Peluang
+                            Karir</span><br>dan Masa Depan Anda</h2>
+                    <p class="text-secondary">Bergabunglah dengan jutaan pencari kerja lainnya di platform kami<br>dan
+                        temukan berbagai lowongan pekerjaan menarik</p>
+                    <button class="btn btn-primary fw-bold pe-auto">Temukan Karir</button>
+                </div>
+                <div class="col-sm-6 col-xs-12 position-relative h-100">
+                    <div class="img-box">
+                        <img src="./assets/images/header.png" alt="header" class="position-absolute w-80 bottom-0">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ----- End jumbotron ----- -->
+
+    <!-- ----- Category ----- -->
+    <section class="categories xtra-p bg" id="categories">
+        <div class="container">
+            <h2 class="text-dark text-center fw-bold mb-5">Telusuri <span
+                    class="text-primary">Pekerjaan</span><br>Berdasarkan Kategori</h2>
+            <div class="row g-3">
+                <div class="categories-item col-xs-6 col-sm-3">
+                    <div class="categories-item bg-white p-4 text-center rounded">
+                        <div class="d-flex gap-3">
+                            <img src="assets/images/category/Teknologi Infromasi.svg" alt="" class="w-25">
+                            <h5 class="mt-2 fw-bold text-start fs-5 text-primary">Teknologi Informasi</h5>
+                        </div>
+                        <div class="mt-3 text-secondary">
+                            58 Job Available
+                        </div>
+                    </div>
+                </div>
+                <div class="categories-item col-xs-6 col-sm-3">
+                    <div class="categories-item bg-white p-4 text-center rounded">
+                        <div class="d-flex gap-3">
+                            <img src="assets/images/category/Desain.svg" alt="" class="w-25">
+                            <h5 class="mt-2 fw-bold text-start fs-5 text-primary">Desain Grafis & Industri Kreatif</h5>
+                        </div>
+                        <div class="mt-3 text-secondary">
+                            102 Job Available
+                        </div>
+                    </div>
+                </div>
+                <div class="categories-item col-xs-6 col-sm-3">
+                    <div class="categories-item bg-white p-4 text-center rounded">
+                        <div class="d-flex gap-3">
+                            <img src="assets/images/category/Sales.svg" alt="" class="w-25">
+                            <h5 class="mt-2 fw-bold text-start fs-5 text-primary">Sales & Pemasaran</h5>
+                        </div>
+                        <div class="mt-3 text-secondary">
+                            95 Job Available
+                        </div>
+                    </div>
+                </div>
+                <div class="categories-item col-xs-6 col-sm-3">
+                    <div class="categories-item bg-white p-4 text-center rounded">
+                        <div class="d-flex gap-3">
+                            <img src="assets/images/category/Akuntansi.svg" alt="" class="w-25">
+                            <h5 class="mt-2 fw-bold text-start fs-5 text-primary">Akuntansi & Finansial</h5>
+                        </div>
+                        <div class="mt-3 text-secondary">
+                            120 Job Available
+                        </div>
+                    </div>
+                </div>
+                <div class="categories-item col-xs-6 col-sm-3">
+                    <div class="categories-item bg-white p-4 text-center rounded">
+                        <div class="d-flex gap-3">
+                            <img src="assets/images/category/Admin.svg" alt="" class="w-25">
+                            <h5 class="mt-2 fw-bold text-start fs-5 text-primary">Admin & Customer Support</h5>
+                        </div>
+                        <div class="mt-3 text-secondary">
+                            62 Job Available
+                        </div>
+                    </div>
+                </div>
+                <div class="categories-item col-xs-6 col-sm-3">
+                    <div class="categories-item bg-white p-4 text-center rounded">
+                        <div class="d-flex gap-3">
+                            <img src="assets/images/category/Teknisi.svg" alt="" class="w-25">
+                            <h5 class="mt-2 fw-bold text-start fs-5 text-primary">Teknisi & Arsitektur</h5>
+                        </div>
+                        <div class="mt-3 text-secondary">
+                            87 Job Available
+                        </div>
+                    </div>
+                </div>
+                <div class="categories-item col-xs-6 col-sm-3">
+                    <div class="categories-item bg-white p-4 text-center rounded">
+                        <div class="d-flex gap-3">
+                            <img src="assets/images/category/Penulis.svg" alt="" class="w-25">
+                            <h5 class="mt-2 fw-bold text-start fs-5 text-primary">Penulisan & Pernerjemah</h5>
+                        </div>
+                        <div class="mt-3 text-secondary">
+                            134 Job Available
+                        </div>
+                    </div>
+                </div>
+                <div class="categories-item col-xs-6 col-sm-3">
+                    <div class="categories-item bg-white p-4 text-center rounded">
+                        <div class="d-flex gap-3">
+                            <img src="assets/images/category/HR.svg" alt="" class="w-25">
+                            <h5 class="mt-2 fw-bold text-start fs-5 text-primary">Human Resource & Pengembangan</h5>
+                        </div>
+                        <div class="mt-3 text-secondary">
+                            74 Job Available
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- ----- End Categories ----- -->
+
+    <!-- ----- FAQs ----- -->
+    <section class="h-50 d-flex justify-content-center align-items-center" id="faqs">
+        <div class="container">
+            <div class="faqs-container row d-flex align-items-center justify-content-between">
+                <div class="text-box col-xs-12 col-sm-6">
+                    <div class="img-box d-flex justify-content-center align-items-center">
+                        <img src="assets/images/FAQ.png" alt="FAQ" width="250">
+                    </div>
+                </div>
+                <div class="faqs-field col-xs-12 col-sm-6">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    Bagaimana cara mendaftar ke website<br>lowongan kerja ini?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body text-secondary">Anda dapat mendaftar ke website kami dengan
+                                    mengklik tombol "Daftar" pada halaman utama. Setelah itu, Anda akan diminta untuk
+                                    mengisi informasi yang diperlukan seperti nama lengkap, alamat email, dan informasi
+                                    pendidikan terakhir.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    Bagaimana cara mencari lowongan kerja<br>yang sesuai dengan keahlian saya?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body text-secondary">Anda dapat mencari lowongan kerja yang sesuai
+                                    dengan keahlian Anda dengan menggunakan fitur pencarian pada halaman utama. Masukkan
+                                    kata kunci yang sesuai dengan pekerjaan yang Anda cari, dan Anda akan mendapatkan
+                                    daftar lowongan kerja yang cocok.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">Apakah informasi yang saya berikan
+                                    pada<br>website ini akan aman?</button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body text-secondary">Ya, informasi yang Anda berikan pada website
+                                    kami akan diamankan dan tidak akan dibagikan kepada pihak ketiga tanpa persetujuan
+                                    Anda terlebih dahulu.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ----- End FAQS ----- -->
+
+    <!-- ----- Step-Guide ----- -->
+    <section class="step-guide" id="step-guide">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-sm-6 col-xs-12">
+                    <div class="text-box">
+                        <h4 class="h1 fw-bold">Temukan <span class="text-primary">Pekerjaan</span> dengan<br>3 Langkah
+                            Mudah</h4>
+                        <p class="text-secondary">Cukup dengan 3 langkah saja, Anda bisa menentukan pekerjaan impian
+                            Anda dari perusahaan ternama.</p>
+                        <ol class="steps">
+                            <li>
+                                <h5 class="fw-bold text-primary">Registrasi Akun</h5>
+                                <p class="text-secondary">Setelah mendaftar, Anda mendapatkan akses ke akun pribadi yang
+                                    dapat digunakan untuk mencari pekerjaan.</p>
+                            </li>
+                            <li>
+                                <h5 class="fw-bold text-primary">Temukan Pekerjaan</h5>
+                                <p class="text-secondary">Gunakan fitur pencarian untuk menemukan pekerjaan yang cocok
+                                    dengan kriteria yang diinginkan.</p>
+                            </li>
+                            <li>
+                                <h5 class="fw-bold text-primary">Lamar Pekerjaan</h5>
+                                <p class="text-secondary">Ikuti langkah-langkah untuk melamar pekerjaan dengan mengisi
+                                    formulir lamaran dan melampirkan resume.</p>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                    <div class="img-box">
+                        <img src="./assets/images/step.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ----- End Step-Guide ----- -->
+
+    <!-- ----- Job List ----- -->
+    <section class="job-list xtra-p" id="job-list">
+        <div class="container">
+            <div class="py-3 text-center">
+                <h3 class="h2 fw-bold">Temukan <span class="text-primary">Pekerjaan</span> Impian Anda</h3>
+                <p class="text-secondary">Jelajahi pekerjaan sesuai bidang Anda dan mulai melamar.</p>
+            </div>
+            <div class="job-container row g-4">
+                <div class="col-xs-6 col-sm-3">
+                    <div class="job-item px-4 py-3 rounded shadow">
+                        <div class="company">
+                            <div class="img-box">
+                                <img src="./assets/images/logo.png" alt="company-alt" width="40" height="40">
+                            </div>
+                            <div class="company-desc">
+                                <h4>Microsoft</h4>
+                                <span>Jakarta</span>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h4 class="title">Software Engineer</h4>
+                            <h5 class="sub-title text-secondary">Full Time</h5>
+                            <p class="desc">Setia, jujur, tanggung jawab, dan mampu bekerja dibawah tekanan.</p>
+                            <div class="cta d-flex justify-content-between align-items-center">
+                                <span>Rp5.350.000</span>
+                                <button class="btn bg text-primary jobList-hover">Lamar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-3">
+                    <div class="job-item px-4 py-3 rounded shadow">
+                        <div class="company">
+                            <div class="img-box">
+                                <img src="./assets/images/logo.png" alt="company-alt" width="40" height="40">
+                            </div>
+                            <div class="company-desc">
+                                <h4>Microsoft</h4>
+                                <span>Jakarta</span>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h4 class="title">Software Engineer</h4>
+                            <h5 class="sub-title">Full Time</h5>
+                            <p class="desc">Setia, jujur, tanggung jawab, dan mampu bekerja dibawah tekanan.</p>
+                            <div class="cta d-flex justify-content-between align-items-center">
+                                <span>Rp5.350.000</span>
+                                <button class="btn bg text-primary jobList-hover">Lamar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-3">
+                    <div class="job-item px-4 py-3 rounded shadow">
+                        <div class="company">
+                            <div class="img-box">
+                                <img src="./assets/images/logo.png" alt="company-alt" width="40" height="40">
+                            </div>
+                            <div class="company-desc">
+                                <h4>Microsoft</h4>
+                                <span>Jakarta</span>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h4 class="title">Software Engineer</h4>
+                            <h5 class="sub-title">Full Time</h5>
+                            <p class="desc">Setia, jujur, tanggung jawab, dan mampu bekerja dibawah tekanan.</p>
+                            <div class="cta d-flex justify-content-between align-items-center">
+                                <span>Rp5.350.000</span>
+                                <button class="btn bg text-primary jobList-hover">Lamar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-3">
+                    <div class="job-item px-4 py-3 rounded shadow">
+                        <div class="company">
+                            <div class="img-box">
+                                <img src="./assets/images/logo.png" alt="company-alt" width="40" height="40">
+                            </div>
+                            <div class="company-desc">
+                                <h4>Microsoft</h4>
+                                <span>Jakarta</span>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h4 class="title">Software Engineer</h4>
+                            <h5 class="sub-title">Full Time</h5>
+                            <p class="desc">Setia, jujur, tanggung jawab, dan mampu bekerja dibawah tekanan.</p>
+                            <div class="cta d-flex justify-content-between align-items-center">
+                                <span>Rp5.350.000</span>
+                                <button class="btn bg text-primary jobList-hover">Lamar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-3">
+                    <div class="job-item px-4 py-3 rounded shadow">
+                        <div class="company">
+                            <div class="img-box">
+                                <img src="./assets/images/logo.png" alt="company-alt" width="40" height="40">
+                            </div>
+                            <div class="company-desc">
+                                <h4>Microsoft</h4>
+                                <span>Jakarta</span>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h4 class="title">Software Engineer</h4>
+                            <h5 class="sub-title">Full Time</h5>
+                            <p class="desc">Setia, jujur, tanggung jawab, dan mampu bekerja dibawah tekanan.</p>
+                            <div class="cta d-flex justify-content-between align-items-center">
+                                <span>Rp5.350.000</span>
+                                <button class="btn bg text-primary jobList-hover">Lamar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-3">
+                    <div class="job-item px-4 py-3 rounded shadow">
+                        <div class="company">
+                            <div class="img-box">
+                                <img src="./assets/images/logo.png" alt="company-alt" width="40" height="40">
+                            </div>
+                            <div class="company-desc">
+                                <h4>Microsoft</h4>
+                                <span>Jakarta</span>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h4 class="title">Software Engineer</h4>
+                            <h5 class="sub-title">Full Time</h5>
+                            <p class="desc">Setia, jujur, tanggung jawab, dan mampu bekerja dibawah tekanan.</p>
+                            <div class="cta d-flex justify-content-between align-items-center">
+                                <span>Rp5.350.000</span>
+                                <button class="btn bg text-primary jobList-hover">Lamar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-3">
+                    <div class="job-item px-4 py-3 rounded shadow">
+                        <div class="company">
+                            <div class="img-box">
+                                <img src="./assets/images/logo.png" alt="company-alt" width="40" height="40">
+                            </div>
+                            <div class="company-desc">
+                                <h4>Microsoft</h4>
+                                <span>Jakarta</span>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h4 class="title">Software Engineer</h4>
+                            <h5 class="sub-title">Full Time</h5>
+                            <p class="desc">Setia, jujur, tanggung jawab, dan mampu bekerja dibawah tekanan.</p>
+                            <div class="cta d-flex justify-content-between align-items-center">
+                                <span>Rp5.350.000</span>
+                                <button class="btn bg text-primary jobList-hover">Lamar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-3">
+                    <div class="job-item px-4 py-3 rounded shadow">
+                        <div class="company">
+                            <div class="img-box">
+                                <img src="./assets/images/logo.png" alt="company-alt" width="40" height="40">
+                            </div>
+                            <div class="company-desc">
+                                <h4>Microsoft</h4>
+                                <span>Jakarta</span>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h4 class="title">Software Engineer</h4>
+                            <h5 class="sub-title">Full Time</h5>
+                            <p class="desc">Setia, jujur, tanggung jawab, dan mampu bekerja dibawah tekanan.</p>
+                            <div class="cta d-flex justify-content-between align-items-center">
+                                <span>Rp5.350.000</span>
+                                <button class="btn bg text-primary jobList-hover">Lamar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- feedback -->
+        <section class="feedback" id="feedback">
+            <div class="container">
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="w-75 d-flex flex-column justify-content-center align-items-center gap-3">
+                                <img src="assets/images/feedback/nobody.jpg" alt="" width="100" height="100"
+                                    class=" rounded-circle">
+                                <h4 class="text-center fw-bold">Elon Musk</h4>
+                                <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae,
+                                    necessitatibus officiis! Laboriosam officiis in a rem totam consequuntur explicabo
+                                    veniam.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="w-75 d-flex flex-column justify-content-center align-items-center gap-3">
+                                <img src="assets/images/feedback/nobody.jpg" alt="" width="100" height="100"
+                                    class=" rounded-circle">
+                                <h4 class="text-center fw-bold">Elon Musk</h4>
+                                <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae,
+                                    necessitatibus officiis! Laboriosam officiis in a rem totam consequuntur explicabo
+                                    veniam.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="w-75 d-flex flex-column justify-content-center align-items-center gap-3">
+                                <img src="assets/images/feedback/nobody.jpg" alt="" width="100" height="100"
+                                    class=" rounded-circle">
+                                <h4 class="text-center fw-bold">Elon Musk</h4>
+                                <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae,
+                                    necessitatibus officiis! Laboriosam officiis in a rem totam consequuntur explicabo
+                                    veniam.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+    <!-- End Feedback -->
+
+    <!-- Newsletter -->
+    <section class="newsletter" id="newsletter">
+        <div class="container shadow-lg p-5 xtra-bdrs newsletter-container bg-white">
+            <div class="row d-flex justify-content-between align-items-center">
+                <div class="col-sm-12 col-md-6">
+                    <div class="text-box w-70">
+                        <h2 class="fw-bold">Dapatkan Informasi <span class="text-primary">Lowongan Kerja</span> Terbaru
+                        </h2>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <form action="#" class=" bdrs d-flex justify-content-between p-2 bg">
+                        <input type="text" placeholder="Masukan Email Anda" class="w-100 bg-transparent border-0">
+                        <button class="btn bg-primary border-transparent px-3 py-2 text-white bdrs">Langganan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ----- End Newsletter ----- -->
+
+    <!-- Footer -->
+    <footer class="footer bg xtra-pt" id="footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-item">
+                    <div class="logo">
+                        <img src="./assets/images/logo.png" alt="" width="50" height="50" class="mb-2">
+                        <p class="text-secondary">Kami adalah sebuah platform lowongan kerja yang bertujuan untuk
+                            membantu para pencari kerja menemukan pekerjaan yang sesuai dengan keahlian dan minat
+                            mereka.</p>
+                        <ul class="social-links list-unstyled d-flex fs-2 gap-2">
+                            <li><a href="#"></a><i class="bx bxl-twitter icon"></i></li>
+                            <li><a href="#"></a><i class='bx bxl-instagram icon'></i></li>
+                            <li><a href="#"></a><i class='bx bxl-linkedin-square icon'></i></li>
+                            <li><a href="#"></a><i class='bx bxl-youtube icon'></i></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-item">
+                    <h5 class="fw-bold">Tentang Kami</h5>
+                    <ul class="list-unstyled ">
+                        <li><a href="#" class="text-decoration-none footerLink text-secondary">Cari Lowongan</a></li>
+                        <li><a href="#" class="text-decoration-none footerLink text-secondary">Hubungi Kami</a></li>
+                        <li><a href="#" class="text-decoration-none footerLink text-secondary">Bantuan</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h5 class="fw-bold">Perusahaan</h5>
+                    <ul class="list-unstyled ">
+                        <li><a href="#" class="text-decoration-none footerLink text-secondary">Beranda</a></li>
+                        <li><a href="#" class="text-decoration-none footerLink text-secondary">Company Profile</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h5 class="fw-bold">Layanan Lainnya</h5>
+                    <ul class="list-unstyled ">
+                        <li><a href="#" class="text-decoration-none footerLink text-secondary">Berbagi</a></li>
+                        <li><a href="#" class="text-decoration-none footerLink text-secondary">Berita</a></li>
+                        <li><a href="#" class="text-decoration-none footerLink text-secondary">Direktori</a></li>
+                        <li><a href="#" class="text-decoration-none footerLink text-secondary">Forum</a></li>
+                        <li><a href="#" class="text-decoration-none footerLink text-secondary">Komunitas</a></li>
+                        <li><a href="#" class="text-decoration-none footerLink text-secondary">Toko</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ----- End Footer ----- -->
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>

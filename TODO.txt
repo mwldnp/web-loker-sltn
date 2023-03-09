@@ -1,0 +1,25 @@
+TO-DO : 
+
+1. Pada halaman header, buat agar navigasi bagian atas berwarna #655DBB saat di hover ✅
+
+2. Pada halaman header, buat agar ketika kursor mengarah ke tombol dan navigasi bagian atas, maka menampilkan cursor pointer ✅
+
+3. Pada section category cari icon yang sesuai yang mewakili masing-masing kategory, untuk desainnya bisa sesuai dengan desain yang pernah saya kirim di grup. Jadi ntar dibawahnya ditambahkan '... job avaible' ✅
+
+4. Sebenarnya untuk section FAQs ini aku bingung mau tambahin apa ga? enaknya gimana? ✅ (ilustrasi)
+
+5. Tambahkan garis vertical dibawah angka pada tag ol. Ini kalo bisa ya, klo ga bisa gpp, coba dulu aja. ❌
+
+6. Section job-list modifikasi style pada judul dan sub-judul section job-list. Kemudian didalam job-item, buat agar deskripsi menampilkan ... ketika kata lebih dari sekian-sekian. Kemudian untuk tombolnya, ubah agar backgroundnya berwarna #655DBB dan text berwarna #fff saat di hover. ✅
+
+7. Pada bagian footer modifikasi bagian social-links agar terlihat enak dilihat. Kemudian pada footer-item disampingnya, modifikasi text bagian h5 dan li sesuai dengan website job portal, bisa cari referensi di desain lainnya. ✅
+
+8. Lanjutkan untuk section feedback, gunakan library swiperJS, itu sudah saya connect di HTML, jadi tinggal pake aja di halaman script.js . Untuk data feedbacknya pake dummy dulu aja.
+
+9. buat halaman menjadi responsive, apabila memungkinkan
+
+- NOTE : Anda juga bisa menambahkan section lainnya, apabila desain web saya dirasa kurang bagus. Ada beberapa hal yang perlu dimodifikasi melalui style.css, jadi tidak harus menggunakan bootstrap.
+
+Referensi lainnya : 
+https://dribbble.com/shots/18478419-Job-Portal-Website-Design/attachments/13683788?mode=media
+https://dribbble.com/shots/18007195-Pedamelan-Job-Finder-Platform-Landing-Page
